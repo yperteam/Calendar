@@ -51,8 +51,9 @@
     </config-file>
     <!-- Usage description of the Calendar for iOS 6+, mandatory since iOS 10 -->
     <config-file target="*-Info.plist" parent="NSCalendarsUsageDescription">
-      <string/>
+        <string>Nous utilisons l'accès au calendrier pour vous permettre d'enregistrer vos créneaux de livraison directement dans votre calendrier personnel.</string>
     </config-file>
+    
     <header-file src="src/ios/Calendar.h"/>
     <source-file src="src/ios/Calendar.m"/>
     <framework src="EventKit.framework"/>
